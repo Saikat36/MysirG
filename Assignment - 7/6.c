@@ -9,10 +9,14 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &N);
 
-    while (i <= N && i % 2 == 0)
-    {
-        printf("ok it's even %d\n", i);
+    while (i <= N )
+    {   
+        if (i % 2 == 0)
+        {
+            printf("even numbers are - %d\n", i);
+        }
+        
+        i++;
     }
-    i++;
     return 0;
 }

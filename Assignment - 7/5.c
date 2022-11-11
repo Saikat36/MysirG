@@ -1,19 +1,23 @@
+
+
 // Write a program to print first 10 odd natural number in reverse order
 
-#include<stdio.h>
-#include<conio.h>
-
+#include <stdio.h>
+#include <conio.h>
 
 int main()
 {
-    int N;
+    int i = 1, N;
     printf("Enter a number: ");
-    scanf("%d",&N);
+    scanf("%d", &N);
 
-    while(N>=1 && N&1==1)
+    while (N >= i)
     {
-        printf("%d \n",N);
-        N-=2;
+        if (N & 1)
+        {
+            printf("%d \n", N);
+        }
+        N--;
     }
     return 0;
 }
