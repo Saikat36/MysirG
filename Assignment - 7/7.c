@@ -1,4 +1,4 @@
-// Write a program to print first 10 odd natural number in reverse order
+// Write a program to print first 10 even natural number in reverse order
 
 #include<stdio.h>
 #include<conio.h>
@@ -12,11 +12,11 @@ int main()
 
     while(N>=1)
     {
-        if(N&1==1)
+        if(N%2==0)
         {
             printf("%d \n",N);
         }
-        N-=2;
+        N--;
     }
     return 0;
 }
