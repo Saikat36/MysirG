@@ -34,7 +34,7 @@ int main()
     {
         printf("%d is not an armstrong number", x);
     }
-
+    
     printf("\n");
     return 0;
 }
