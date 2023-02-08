@@ -1,7 +1,6 @@
 /* write a programe calculate HCF of two numbers */
 
 #include <stdio.h>
-#include <conio.h>
 
 int main()
 {
