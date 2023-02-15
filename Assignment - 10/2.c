@@ -8,13 +8,14 @@ int main()
     int a = -1, b = 1, c, n;
     printf("Enter a number: ");
     scanf("%d", &n);
+    printf("\n%d Trem of the Fibonacci series are :  \n",n);
     for (int i = 0; i <= n; i++)
     {
         c = a + b;
-        printf("%d", c);
+        printf(" %d ", c);
         a = b;
         b = c;
     }
-    printf("\n");
+    printf("\n\n\n");
     return 0;
 }
