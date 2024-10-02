@@ -1,3 +1,5 @@
+
+
 /* Write  programe to calculate LCM of two numbers */
 
 #include <stdio.h>
@@ -15,7 +17,9 @@ int main()
             store = i;
         }
     }
-    lcm = (x * y) / store;
+
+    lcm = (x * y) / store;      //  লসাগু * গসাগু = 1st no * 2nd no
+
     printf("The LCM of two numbers %d and %d is %d.", x, y, lcm);
     printf("\n");
     return 0;

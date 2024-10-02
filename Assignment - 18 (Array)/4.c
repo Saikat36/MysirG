@@ -10,7 +10,7 @@ int main()
 {
     int i,a[10],max;
 
-    printf("Enter 10 nnumbers: \n");
+    printf("Enter 10 numbers: \n");
     for ( i = 0; i <= 9; i++)
     {
         scanf("%d",&a[i]);

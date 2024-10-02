@@ -1,3 +1,4 @@
+
 /* write a programe to find next prime number of a given number */
 
 #include <stdio.h>

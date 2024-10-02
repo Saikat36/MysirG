@@ -1,4 +1,7 @@
+
+
 /* Write  programe to calculate HCF of two numbers */
+
 
 #include <stdio.h>
 #include <conio.h>

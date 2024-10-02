@@ -1,3 +1,4 @@
+
 /* Write programe to check whether a given number is a prime number or not */
 
 #include <stdio.h>
@@ -5,7 +6,7 @@
 
 int main()
 {
-    int x, count = 0;
+    int x, count = 0, h=0;
     printf("Enter a number: ");
     scanf("%d", &x);
 
@@ -14,9 +15,13 @@ int main()
         while (x % i == 0)
         {
             count++;
-            break;
+            h++;
+            break;  
         }
     }
+
+    printf("H is = %d", h);
+    printf("\n");
 
     if (count == 1)
     {

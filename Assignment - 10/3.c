@@ -6,7 +6,7 @@
 int main()
 {
     int a = -1, b = 1, c, n;
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &n);
 
     for (int i = 0;    ; i++)
@@ -14,12 +14,12 @@ int main()
         c = a + b;
         if (c == n)
         {
-            printf("%d is %d term in the series", n, i);
+            printf("%d is %dth term in the series\n", n, i);
             break;
         }
         if (c > n)
         {
-            printf("%d is not in the series", n);
+            printf("%d is not in the series\n", n);
             break;
         }
 

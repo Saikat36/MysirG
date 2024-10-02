@@ -10,7 +10,7 @@ int main()
 {
     int i, a[10], sum_even = 0, sum_odd = 0;
 
-    printf("Enter 10 nnumbers: ");
+    printf("Enter 10 numbers: ");
     for (i = 0; i <= 9; i++)
     {
         scanf("%d", &a[i]);

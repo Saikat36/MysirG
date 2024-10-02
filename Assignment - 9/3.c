@@ -1,3 +1,4 @@
+
 /* Write a programe to calculate sum of first N odd natural numbers */
 
 #include <stdio.h>
