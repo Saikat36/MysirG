@@ -1,17 +1,18 @@
 
 
+
+
 #include<stdio.h>
 
 int main()
 {
     int x,y;
+    float z,k;
+    y = sizeof('b');
+    z = sizeof('k');
+    printf("%d , %f \n",y,z);
 
-    y = sizeof('A');
-    printf("%d\n",y);
-
-    x = 2||4;
+    x = 2 || 8;
     printf("%d",x);
     
 }
-
-
